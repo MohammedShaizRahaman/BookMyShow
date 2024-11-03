@@ -1,0 +1,80 @@
+.live-images {
+    height: 300px;
+    width: 100%;
+}
+
+.movies-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+    
+
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+    height: 380px;
+    object-fit: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.movie-poster {
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.movies-display-txt {
+    display: flex;
+    justify-content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(34, 34, 34);
+
+}
+
+.movie-poster-container {
+    position: relative;
+}
+
+.ratings-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 1px;
+    width: 100%;
+    height: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.desc{
+    line-height: 10px;
+}
+@media(min-width: 752px ){
+    .movies-section{
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 20px;
+    }
+}
+@media(min-width: 1536px ){
+    .movies-section{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    }
+}
+.cases{
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.cases-star{
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.movie-type{
+    color: grey;
+    font-size: 15px;
+}

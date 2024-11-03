@@ -1,0 +1,65 @@
+.foot1{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #313035;
+  color: white;
+
+}
+.foot1-1{
+  display: flex;
+}
+.contact-btn{
+  background-color: rgb(236, 94, 113);
+  border: none;
+  padding: 5px 10px 5px 10px;
+  color: white;
+  font-size: 20px;
+
+}
+.foot2{
+  background-color:#333338;
+  margin-top: 0;
+}
+.bwc__sc-1jgpgcm-3{
+  margin-top: 0px;
+  margin-left: 140px;
+  margin-right: 120px;
+  display: flex;
+  justify-content: space-around;
+  color: rgb(132, 132, 132);
+  text-decoration: none;
+}
+.movie-shows{
+  padding-top: 10px;
+  margin-left: 150px;
+  margin-top: 0;
+  color: white;
+}
+.bwc__sc-1jgpgcm-3 p{
+  margin-top: 0px;
+}
+.hr-logo{
+  display: flex;
+  align-items: center;
+}
+.hr1{
+  width: 700px;
+}
+.hr2{
+  width: 700px;
+}
+.social-logo{
+  height: 50px;
+  width: 50px;
+}
+.medias{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copy-right{
+  display: flex;
+  justify-content: center;
+  color: white;
+}

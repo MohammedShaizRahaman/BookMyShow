@@ -1,0 +1,100 @@
+.activities-container{
+    display: flex;
+    height: 30px;
+    width: 100%;
+    justify-content: space-around;
+    background-color: rgb(216, 216, 216);
+}
+.left-activities{
+display: flex;
+justify-content: space-between;
+align-items: center;
+    width: 500px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(81, 81, 81);
+
+}
+.right-activities{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 400px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: rgb(81, 81, 81);
+}
+.image-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bar-image{
+    width: 1000px;
+}
+.premiere-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    background-color: #2B3148;
+    /* background-color: aqua; */
+}
+.premiere-img{
+    margin-left: 50px;
+}
+.movies-display-txt{
+    display: flex;
+    flex-direction: column;
+    line-height: 0px;
+    margin-left: -990px;
+}
+.premiere-movies{
+    background-color: #2B3148;
+    height: 400px;
+    width: 1300px;
+    margin-left: 50px;
+}
+.premiere-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+    height: 400px;
+    background-color: #2B3148;
+
+}
+/* @media(min-width: 752px ){
+    .premiere-container{
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 50px;
+    }
+} */
+ .prem-title{
+    color: white;
+    font-size: 23px;
+ }
+ .prem-type{
+    color: white;
+ }
+ .banner-sentence{
+    position: relative;
+ }
+ .premiere-sentence{
+    position: absolute;
+    background-color: rgb(190, 25, 25);
+    bottom: 5px;
+    left: 0px;
+    padding-right: 10px;
+    padding-left: 5px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+ }
+ .prem-word{
+    margin: 0;
+    font-size: 23px;
+    color: white;
+
+ }
+ .prem-img{
+    height: 300px; 
+    width: 100%;
+    border-radius: 20px;
+ }
